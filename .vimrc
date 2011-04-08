@@ -1,3 +1,10 @@
+"=================================================
+"Author:pengjianqing@gmail.com
+"Date:20110408
+"All the vim configs are got from the network
+"You can edit it as you wish,now it doesn't depend on any plugins,it is simple and useful.
+"=================================================
+
 "Set how many lines of history
 set history=1000
 
