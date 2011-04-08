@@ -7,6 +7,11 @@ set nu
 "Enable paste mode,"+p
 set paste
 
+"Use mouse in all modes
+set mouse=a
+
+"Do not redraw while executing macros (much faster) 
+set lazyredraw 
 
 "Text options
 "Write code must set it,the default is 4,you can change it to 2 or 8.
@@ -33,7 +38,9 @@ set autoread
 set wrap
 
 "Enable filetype plugin
+"Enable file type detection
 filetype on
+"Enable loading the plugin for appropriate file type
 filetype plugin on
 filetype indent on
 
@@ -168,8 +175,6 @@ set showcmd
 "How many tenths of a second to blink
 "set mat=4
 
-"Set mouse
-"set mouse
 
 
 "Size of foding marks
