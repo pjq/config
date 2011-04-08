@@ -46,6 +46,9 @@ set nobackup
 set nowb
 set noswapfile
 
+"Set title string
+set titlestring=%f%(\ %m%h%r%)\ -\ pjq's\ Vim
+
 "Color
 colorscheme desert
 
