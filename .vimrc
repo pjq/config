@@ -1,11 +1,3 @@
-"=================================================
-"Author:pengjianqing@gmail.com
-"Date:20110408
-"All the vim configs are got from the network
-"You can edit it as you wish,now it doesn't depend on any plugins,it is simple and useful.
-"=================================================
-
-
 "Set how many lines of history
 set history=1000
 
@@ -15,8 +7,6 @@ set nu
 "Enable paste mode,"+p
 set paste
 
-"Set mouse
-set mouse=a
 
 "Text options
 "Write code must set it,the default is 4,you can change it to 2 or 8.
@@ -39,6 +29,9 @@ set showmatch
 "Auto load the file when changed from the outside.
 set autoread
 
+"Wwrap line:auto break the line
+set wrap
+
 "Enable filetype plugin
 filetype on
 filetype plugin on
@@ -53,7 +46,7 @@ set nobackup
 set nowb
 set noswapfile
 
-"Color scheme
+"Color
 colorscheme desert
 
 "Enable hight light search
@@ -172,9 +165,9 @@ set showcmd
 "How many tenths of a second to blink
 "set mat=4
 
+"Set mouse
+"set mouse
 
-"Wwrap line
-"set wrap
 
 "Size of foding marks
 "set foldcolumn=2
